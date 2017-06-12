@@ -1,0 +1,226 @@
+@charset "UTF-8";   
+	/*sub-ad部分开始*/
+	.sub-ad {
+		position: relative;
+	}
+	.sub-ad a {
+		position: absolute;
+		width: 100%;
+		height: 644px;;
+		background: url(../images/subbanner.jpg) no-repeat center;
+	}
+	/*sub-ad部分结束*/
+
+    /*main部分开始*/
+    .main {
+    	position: relative;
+    }
+    .main-slide {
+    	float: left;
+    	margin: 12px 0 0 220px;
+    	width: 730px;
+    	height: 454px;
+    	position: relative;
+    }
+    .main-slide ul{
+    	position: absolute;
+    	bottom: 10px;
+    	left: 50%; 	
+    	margin-left: -66px; 
+    }
+    .main-slide li {
+    	float: left;
+    	width: 18px;
+    	height: 18px;
+    	border-radius: 9px;
+    	color: #fff;
+    	background-color: #3e3e3e;
+    	text-align: center;
+    	line-height: 18px;
+    	margin: 0 2px;
+    	cursor: pointer;
+    }
+    .main-slide .current {
+    	background-color: #b61b1f;
+    }
+    .arrow a {
+    	width: 28px;
+    	height: 62px;
+    	position: absolute;
+    	top: 50%;
+    	margin-top: -31px;
+    	background-color: rgba(0,0,0,0.3);
+    	color: #fff;
+    	text-align: center;
+    	font: 400 22px/62px "simsun";
+    }
+    .arrow a:hover {
+    	background-color: rgba(0,0,0,0.5);
+    }
+    .prev { 
+    	left: 0;
+    }
+    .next {
+    	right: 0;
+    }
+    .main-news {
+    	float: right;
+    	width: 250px;
+    	height: 466px;
+    }
+    .main-news-top {
+    	height: 372px;
+    	width: 248px;
+    	margin: 12px 0 5px 0;
+    	border: 1px solid #e4e4e4;
+    	overflow: hidden;
+    }
+    .main-news-top-faster {
+    	height: 163px;
+    	border-bottom: 1px dashed #e4e4e4;
+    }
+    .main-news-top-faster-title {
+    	height: 32px;
+    	line-height: 32px;
+    	padding: 0 15px ;
+    	border-bottom: 1px dotted #e8e8e7;
+    }
+    .main-news-top-faster-title h3 {
+    	float: left;
+    	font-family: "microsoft yahei";
+    	font-size: 16px;
+    }
+    .main-news-top-faster-title a {
+    	float: right;
+    }
+    .main-news-top-faster-content {
+    	padding: 5px 0 0 15px;
+    }
+    .main-news-top-faster-content li {
+    	 height: 24px;
+    }
+    .main-news-top-faster-content span {
+    	font-weight: 700;
+    }
+    .main-news-top-money ul {
+    	width: 260px;
+    }
+    .main-news-top-money li {
+    	width: 62px;
+    	height: 70px;
+    	float: left;
+    	margin-left: -1px;
+    	margin-top: -1px;
+    	border: 1px solid #e8e8e7;
+
+    }
+    .main-news-top-money a {
+    	display: block;
+    	width: 62px;
+    	height: 70px;
+    	padding-top: 40px;
+    	text-align: center;
+    	line-height: 30px;
+    	position: relative;
+    	font-family: "microsoft yahei"
+    }
+    .main-news-top-money i {
+    	position: absolute;
+    	top: 13px;
+    	left: 18px;
+    	width: 25px;
+    	height: 25px;
+    	background: url(../images/fly.png) no-repeat ;
+    }
+    .main-news-top-money .main-news-top-money-icon2{
+    	background-position: 0 -25px;
+    }
+    .main-news-top-money .main-news-top-money-icon3{
+    	background-position: 0 -50px;
+    }
+    .main-news-top-money .main-news-top-money-icon4{
+    	background-position: 0 -75px;
+    }
+    .main-news-top-money .main-news-top-money-icon5{
+    	background-position: 0 -100px;
+    }
+    .main-news-top-money .main-news-top-money-icon6{
+    	background-position: 0 -125px;
+    }
+    .main-news-top-money .main-news-top-money-icon7{
+    	background-position: 0 -150px;
+    }
+    .main-news-top-money .main-news-top-money-icon8{
+    	background-position: 0 -175px;
+    }
+    .main-news-top-money .main-news-top-money-icon9{
+    	background-position: 0 -200px;
+    }
+    .main-news-top-money .main-news-top-money-icon10{
+    	background-position: 0 -225px;
+    }
+    .main-news-top-money .main-news-top-money-icon11{
+    	background-position: 0 -250px;
+    }
+    .main-news-top-money .main-news-top-money-icon12{
+    	background-position: 0 -275px;
+    }
+    .main-news-top-money-free{
+    	position: absolute;
+    	top: 0;
+    	right: 3px;
+    	width: 13px;
+    	height: 16px;
+    	font: 400 12px/12px "microsoft yahei";
+    	text-align: center;
+    	background: #77E5A8;
+    	color: #fff;
+    }
+    .main-news-top-money-free .free-ico {
+	    position: absolute;
+	    bottom: 0;
+	    left: 0;
+	    width: 0;
+	    height: 0;
+	    font-size: 0;
+	    line-height: 0;
+	    border: solid;
+	    border-width: 2px 6px;
+	    border-color: #77E5A8 #77E5A8 #fff;   	
+    }
+    .today {
+    	position: relative;
+    	margin: 10px auto 20px;
+    	/*padding: 10px 0 20px;*/
+    }
+    .today-left {
+    	float: left;
+    }
+    .today-left a {
+    	display: block;
+    	width: 210px;
+    	height: 151px;
+    	background: url(../images/pic1.jpg);
+    }
+	
+	.today-right {
+    	float: right;
+    	width: 1000px;
+    	overflow: hidden;
+    	position: relative;
+    }
+    .today-right ul {
+    	width: 450%;
+    }
+    .today-right li {
+    	float: left;
+    	margin-right: 1px; 
+    }
+
+    /*main部分结束*/
+
+    /*today部分开始*/
+    /*today部分结束*/
+
+    /*main部分开始*/
+    /*main部分结束*/
